@@ -50,7 +50,7 @@ class DiscoverMethod(t.Protocol):
 
 KEYWORD_ALIASES: t.Dict[str, str] = {
     # Since TauREx 3.5 the PHOENIX star is provided by the phoenix4all
-    # package instead of the removed built-in ``PhoenixStar``. 
+    # package instead of the removed built-in ``PhoenixStar``.
     "phoenix": "phoenix4all",
 }
 """Input keywords redirected to another keyword (lower case) before lookup."""
